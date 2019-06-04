@@ -1,9 +1,23 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import App from './App';
+// ....
 
-it('renders without crashing', () => {
-  const div = document.createElement('div');
-  ReactDOM.render(<App />, div);
-  ReactDOM.unmountComponentAtNode(div);
-});
+// handleClick = (id) => {
+//   const { todos } = this.state;
+//   this.setState({
+//     todos: todos.map( todo => {
+//       if (todo.id === id) {
+//         return {
+//           ...todo,
+//           complete: !todo.complete
+//         }
+//       }
+//       return todo
+//     })
+//   })
+// }
+
+// ....
+
+// render() {
+//   return (
+//      ....
+//      <List name="Todo List" items={todos} todoClick={this.handleClick} />
